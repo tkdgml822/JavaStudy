@@ -1,9 +1,6 @@
 package ch20.num3;
 
-import ch20.num2.Person;
-
 import java.util.Arrays;
-import java.util.Comparator;
 
 class MyPerson implements Comparable<MyPerson>{
     String name;
