@@ -1,6 +1,7 @@
 package ch20.num2;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class chap20_1 {
     public static void main(String[] args) {
@@ -14,5 +15,6 @@ public class chap20_1 {
         for (Person a : ar) {
             System.out.println(a);
         }
+
     }
 }
