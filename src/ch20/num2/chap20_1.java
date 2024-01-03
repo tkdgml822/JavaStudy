@@ -1,7 +1,6 @@
 package ch20.num2;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class chap20_1 {
     public static void main(String[] args) {
