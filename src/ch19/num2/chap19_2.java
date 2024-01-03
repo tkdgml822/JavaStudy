@@ -43,7 +43,7 @@ class PersonalInfo implements Cloneable {
     }
 }
 
-public class chap19_1 {
+public class chap19_2 {
     public static void main(String[] args) {
         PersonalInfo org = new PersonalInfo("한상희", 24, "영남이공대학교", "학생");
         PersonalInfo cpy;
