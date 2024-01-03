@@ -29,7 +29,7 @@ class DDBox<DL, DR> {
     }
 }
 
-public class chap21_1 {
+public class chap21_1_1 {
     public static void main(String[] args) {
         DBox<String, Integer> box1 = new DBox<>();
         box1.set("Apple", 25);

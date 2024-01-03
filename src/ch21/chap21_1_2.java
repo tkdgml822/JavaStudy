@@ -14,7 +14,7 @@ class DBox1<L, R> {
     }
 }
 
-public class chap21_2 {
+public class chap21_1_2 {
     public static void main(String[] args) {
         DBox1<String, Integer> box1 = new DBox1<>();
         box1.set("Apple", 25);
