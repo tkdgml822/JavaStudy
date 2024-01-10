@@ -1,4 +1,4 @@
-package ch23.test;
+package ch23;
 
 import java.util.HashSet;
 
