@@ -1,37 +1,19 @@
-package ch23;
+package ch23.test;
 
 import java.util.HashSet;
-import java.util.Objects;
 
-class Person1 {
-    private String name;
-    private int age;
-
+class Person1 extends CommonPerson {
     public Person1(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return name + "(" + age + "세)";
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        String name = ((Person1) obj).name;
-        int age = ((Person1) obj).age;
-
-        return this.name.equals(name) && this.age == age;
+        super(name, age);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, age);
+        return name.hashCode() + (age % 7);
     }
 }
 
-public class chap23_1_2 {
+public class chap23_1_1 {
     public static void main(String[] args) {
         HashSet<Person1> hashSet= new HashSet<>();
 
@@ -48,4 +30,6 @@ public class chap23_1_2 {
             System.out.println(person);
         }
     }
+
+
 }
