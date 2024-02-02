@@ -4,9 +4,7 @@ import java.util.function.BiPredicate;
 
 public class chap27_3 {
     public static void main(String[] args) {
-        BiPredicate<String, Integer> conv = (s1, i2) -> {
-            return s1.length() > i2;
-        };
+        BiPredicate<String, Integer> conv = (s, i) -> s.length() > i;
 
         // test 호출 결과 문자열 "Robot"의 길이가 3을 넘으면 true 반환
         if (conv.test("Robot", 3)) {
