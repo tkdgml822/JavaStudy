@@ -10,7 +10,7 @@ class chap_28_1 {
         list.add("robot");
         list.add("Lambda");
         list.add("box");
-        Collections.sort(list, String::compareToIgnoreCase);
+        Collections.sort(list, String::compareToIgnoreCase); // 대소문자 무시
         System.out.println(list);
     }
 }
