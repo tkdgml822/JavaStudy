@@ -2,26 +2,24 @@ package ch28;
 
 import java.util.function.BiFunction;
 
-class Box2<T, U> {
-    private T id;
-    private U con;
-    public Box2(T t, U u) {
-        id = t;
-        con = u;
-    }
 
-    public void showIt() {
-        System.out.println("id : " + id + ", con :" + con);
-    }
-}
-
-public class chap28_2_2 {
+class chap28_2_2 {
     public static void main(String[] args) {
-        BiFunction<Integer, String, Box<Integer, String>> bf = Box::new;
 
-        int i = 0;
-        Box<Integer, String> b1 = bf.apply(++i, "Box");
-        Box<Integer, String> b2 = bf.apply(++i, "Robot");
+        // BiFunction 함수형 인터페이스는 BiFunction<T, U, R>이 있으며 R을 반환한다.
+        // 즉 이 코드는 apply 함수형에 i랑 s를 저장하겠다는 뜻이다.
+
+        /*
+        Box1<Integer, String> apply {
+            return new Box<>(i, s)
+        }
+        */
+
+        BiFunction<Integer, String, Box1<Integer, String>> bf = Box1::new;
+
+        Box1<Integer, String> b1 = bf.apply(1, "Toy");
+        Box1<Integer, String> b2 = bf.apply(2, "Robot");
+
         b1.showIt();
         b2.showIt();
     }
