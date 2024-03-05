@@ -4,19 +4,6 @@ import ch22.Box;
 
 import java.util.function.BiFunction;
 
-class Box1<T, U> {
-    private T id;
-    private U con;
-
-    public Box1(T i, U c) {
-        id = i;
-        con = c;
-    }
-    public void showIt() {
-        System.out.println("ID: " + id + ", " + "Contents" + con);
-    }
-}
-
 class chap28_2_1 {
     public static void main(String[] args) {
 
