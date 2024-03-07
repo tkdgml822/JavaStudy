@@ -1,3 +1,6 @@
+:white_check_mark: : 추가 될때 마다 한번 완독
+
+
 ### CH1 Let's Start Java
 :white_check_mark:
 
