@@ -37,6 +37,5 @@ public class chap29_2 {
             .filter(p -> p.getModel().length() > 10)
             .map(ToyStream::getModel)
             .forEach(System.out::println);
-
     }
 }
