@@ -3,7 +3,7 @@ package ch29;
 import java.util.Arrays;
 import java.util.List;
 
-public class chap29_2_2 {
+public class chap29_1_2 {
     public static void main(String[] args) {
         List<Box<String>> ls  = Arrays.asList(new Box<>("Robot"), new Box<>("Simple"));
         ls.stream()
