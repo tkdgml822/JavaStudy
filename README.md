@@ -86,6 +86,7 @@
 :white_check_mark:
 
 ### CH29 스트림 1
+:white_check_mark:
 
 ### CH30 스트림 2
 
