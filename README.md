@@ -1,6 +1,5 @@
 :white_check_mark: : 추가 될때 마다 한번 완독
 
-
 ### CH1 Let's Start Java
 :white_check_mark:
 
@@ -66,6 +65,8 @@
 
 ### CH22 제네릭(Generics) 2
 :white_check_mark:
+
+<a href = "https://velog.io/@tkdgml82/Java-%EC%A0%9C%EB%84%A4%EB%A6%AD%EC%83%81%ED%95%9C-%ED%95%98%ED%95%9C">상한 하한</a>
 
 ### CH23 컬렉션 프레임워크 1
 :white_check_mark:
