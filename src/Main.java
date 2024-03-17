@@ -8,5 +8,6 @@ class OptionalFlatMap {
 
         Optional<String> os3 = os1.flatMap(s -> Optional.of(s.toUpperCase()));
         System.out.println(os3.get());
+        
     }
 }
