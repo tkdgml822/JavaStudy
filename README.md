@@ -95,6 +95,7 @@
 :white_check_mark:
 
 ### CH30 스트림 2
+:white_check_mark:
 
 ### CH31 시간과 날짜의 처리
 
