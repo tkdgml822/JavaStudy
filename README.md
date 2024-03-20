@@ -98,6 +98,7 @@
 :white_check_mark:
 
 ### CH31 시간과 날짜의 처리
+:white_check_mark:
 
 ### CH32 I/O 스트림
 
